@@ -1,0 +1,47 @@
+.heading-title{
+    margin-block: 70px;
+
+}
+.heading-title h3 {
+    color: #eb566c;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: ;
+    
+}
+
+.heading-title h1{
+    margin-top: .5rem;
+    font-size: 50px;
+    display: block;
+    color: #092c3f;
+    font-weight: 900;
+}
+
+.item{
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.photo{
+    overflow: hidden;
+    transition: all ease-out .6s;
+    
+    &:hover img{
+        scale: 1.05;
+    transition: all ease-out .6s;
+
+    }
+}
+.caption{
+    padding: 20px 20px 20px 50px;
+    h2{
+        font-size: 1.75rem;
+        margin-top: 0px;
+        font-weight: 500;
+        color: #092c3f;
+    }
+    p {
+        color: #eb566c;
+    }
+}
+

@@ -1,0 +1,27 @@
+#intro{
+    img{
+        width: 100%;
+     height: 500px;
+     object-fit: cover;
+     background-position: center center;
+    }
+}
+#cards{
+    color: #5a5a5a;
+    img{
+        border-radius: 100%;
+    }
+    button{
+        background-color: #6c757d;
+        border: none;
+        font-weight: 400;
+        line-height: 1.5;
+        i{
+            font-size: 10px;
+        }
+    }
+}
+#cards,#info{
+    padding-inline: 15px;
+    margin-inline: auto;
+}
